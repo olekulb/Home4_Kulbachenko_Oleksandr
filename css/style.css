@@ -1,0 +1,279 @@
+﻿/*At first, situated the general selectors to the whole html document.
+Other selectors are positioned in the order how elements of html document are positioned.*/
+body {
+  margin: 0;
+  padding: 0;
+  width: 1366px;
+  border: 1px solid #000;
+  color: #545454;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header {
+  padding: 20px 20px 10px 20px;
+  border-bottom: 1px solid #DFE1E5;
+}
+
+.menu {
+  float: right;
+  display: inline;
+  height: 70px;
+  width: 164px;
+  border: 0 solid #fff;
+  padding: 0;
+}
+
+.apps {
+  border-radius: 25px;
+  float: right;
+  display: inline;
+  height: 50px;
+  width: 50px;
+  border: 0 solid black;
+  overflow: hidden;
+  padding: 0;
+  margin: 10px 15px;
+}
+
+.account {
+  border-radius: 25px;
+  float: right;
+  display: inline;
+  height: 50px;
+  width: 50px;
+  border: 0 solid black;
+  overflow: hidden;
+  padding: 0;
+  margin: 10px 15px;
+}
+
+.apps:hover, .account:hover {
+  border: 1px solid #DFE1E5;
+}
+
+.logo {
+  float: left;
+  margin: 7px 0 0 15px;
+}
+
+.logo img {
+  height: 35px;
+}
+
+header .field {
+  border: 1px solid #DFE1E5;
+  border-radius: 20px;
+  height: 40px;
+  width: 650px;
+  margin: 0 150px;
+  padding: 1px 25px;
+}
+
+header .field:hover {
+  box-shadow: 0 0 10px #DFE1E5;
+}
+
+form {
+  border: 0 solid #000;
+  width: 420px;
+  float: left;
+  margin: 2px;
+  padding: 0;
+}
+
+fieldset {
+  border: 0 solid #000;
+  width: 400px;
+  padding: 0;
+  margin: 0;
+}
+
+input {
+  border: 0 solid #000;
+  height: 35px;
+  font-size: 20px;
+  outline: none;
+}
+
+header .field img {
+  display: inline;
+  margin: 3px 5px;
+}
+
+header img {
+  float: right;
+  display: inline;
+}
+
+nav {
+  margin: 20px 0 0 130px;
+  width: 888px;
+  height: 35px;
+}
+
+nav img {
+  float: left;
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  display: inline;
+  width: 110px;
+  height: 30px;
+  line-height: 30px;
+  margin: 0;
+  padding-bottom: 13px;
+}
+
+nav a, footer a, .same-request a, .respond {
+  color: #5F6368;
+}
+
+nav ul li:hover {
+  border-bottom: 3px solid #1A73E8;
+}
+
+nav ul li:last-child {
+  float: none;
+  height: 53px;
+  width: 110px;
+  padding-bottom: 20px;
+}
+
+nav a:hover {
+  color: #1A73E8;
+}
+
+h1 {
+  font-size: 16px;
+  font-weight: normal;
+  margin: 5px 0 0 150px;
+  width: 650px;
+}
+
+article {
+  margin: 30px 0 30px 150px;
+  width: 650px;
+}
+
+article * {
+  margin: 0;
+}
+
+.links {
+  text-decoration: none;
+  color: #006621;
+}
+
+nav a:hover, .links:hover, footer a:hover, .same-request a:hover {
+  text-decoration: none;
+}
+
+.same-request {
+  border: 1px solid lightslategrey;
+  border-collapse: collapse;
+  width: 650px;
+  margin-left: 150px;
+  border-radius: 10px;
+}
+
+.same-request tr {
+  border: 1px solid lightslategrey;
+}
+
+.same-request td, .same-request th {
+  padding: 10px 20px;
+  text-align: left;
+}
+
+.respond {
+  margin-left: 670px;
+  font-style: italic;
+}
+
+.instead {
+  margin: 30px 0 10px 150px;
+}
+
+.instead a {
+  margin-right: 25px;
+}
+
+.instead span {
+  font-weight: bold;
+}
+
+img[alt="Pagination"] {
+  margin: 30px 0 0 130px;
+}
+
+.pagination {
+  margin: 0 0 10px 185px;
+  padding: 0;
+}
+
+.pagination a {
+  padding: 0;
+  margin: 0 6px;
+}
+
+.pagination a:last-child {
+  padding-left: 45px;
+}
+
+footer {
+  background-color: #F2F2F2;
+  height: 80px;
+  padding: 0;
+}
+
+footer table {
+  margin-left: 150px;
+  padding: 0;
+  height: 30px;
+}
+
+footer table td:first-child {
+  border-right: 1px solid grey;
+  padding-right: 10px;
+}
+
+footer table td {
+  height: 30px;
+}
+
+footer table li {
+  list-style-type: disc;
+}
+
+footer ul {
+  padding-left: 20px;
+}
+
+.refer {
+  margin-left: 150px;
+  margin-top: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.refer li {
+  float: left;
+  display: inline;
+  margin: 0;
+  padding-right: 30px;
+}
